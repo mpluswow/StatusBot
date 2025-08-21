@@ -1,8 +1,4 @@
-Certainly! Here's an updated, step-by-step guide to setting up your **AzerothCore Discord Status Bot** in 2025, incorporating the latest practices for bot creation, permissions, and deployment.
-
----
-
-# 🧙‍♂️ AzerothCore Discord Status Bot (2025 Edition)
+# 🧙‍♂️ AzerothCore Discord Status Bot
 
 This guide walks you through creating a Discord bot that updates a channel's name with your AzerothCore server's online status and player count.
 
@@ -227,10 +223,6 @@ pm2 save
 * The bot edits the **channel name** to show server status.
 * Player counts are fetched **directly from the `characters` table**.
 * Logs are saved to `status_bot.log` for debugging.
-
----
-
-For a visual walkthrough of creating a Discord bot in Python, you might find this tutorial helpful:
 
 [Creating a Discord Bot in Python (2025)](https://www.youtube.com/watch?v=YD_N6Ffoojw&utm_source=chatgpt.com)
 
